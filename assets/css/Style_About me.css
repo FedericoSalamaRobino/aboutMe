@@ -27,7 +27,7 @@ nav{
 
 .col2 {
     display: flex;
-    justify-content: right;
+    justify-content: left;
     align-items: center;
     height: 80px;
     padding: 25px 70px;
