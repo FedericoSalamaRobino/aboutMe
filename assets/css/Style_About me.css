@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* NAVBAR */
+nav{
+    position: fixed; /* Posiziona la navbar in modo fisso */
+    top: 0; /* Fissa la navbar in cima */
+    width: 100%; /* Imposta la larghezza della navbar al 100% */
+    background-color: #fff; /* Colore di sfondo della navbar (puoi cambiarlo in base al tuo design) */
+    z-index: 1000; /* Assicura che la navbar sia sempre sopra gli altri elementi */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Aggiunge un'ombra alla navbar per separarla dal contenuto */
+}
+
+
+.col1 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: absolute;
+}
+
+
+.col2 {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 80px;
+    padding: 25px 70px;
+    font-size: 15px;
+
+}
+
+
+/* ?? non scompare la sottolineatura ?? */
+.menu {
+    text-decoration: none;
+    list-style: none;
+}
+
+.menu-list{
+    
+    margin-left: 20px;
+    display: inline;
+    color: rgb(50, 50, 50);
+}
+
+/* HERO */
+.warp-hero {
+    background: url("../IMG/img\ homepage.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 868px;
+    width:  100vw
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 60px;
+}
+
+h2 {
+    font-size: 50px;
+    font-style: bold;
+    color:  rgb(250, 187, 156);
+}
+
+p {
+    font-size: 20px;
+    font-style: normal;
+}
+
+
+
+.col3 {
+    position: absolute;
+    top: 650px;
+    left: 70px;
+    float: right;
+    color: white;
+}
+.signature {
+    position: absolute;
+    top: 120px;
+    left: 400px;
+    float: right;
+}
+
+.col4 {
+    font-size: 60px;
+    font-weight: 800;
+    font-style: regular;
+    position: absolute;
+    top: 290px;
+    right: 350px;
+    float: right;
+    color: white;
+}
+
+
+/* ?? si sposta a sinistra in modo strano ?? */
+/* DIV Designer */
+.designer {
+    position: absolute;
+    margin-top: -450px;
+    right: -180px;
+    margin-right: 0px;
+    padding-right: 0px;
+    font-size: 50px;
+    font-weight: 800;
+    font-style: normal;
+    color: rgb(255, 255, 255); 
+    rotate: -90deg;
+}
+
+
+/* DIV 2 */
+
+.About Me {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.footer {
+    height: 310px;
+    text-align: center;
+    background: url("../img/banner\ foto.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+    padding: 50px 0px;
+}
+
+.req-text {
+    padding-top: 25px;
+    font-weight: bold;
+    font-size: 30px;
+    color: #474747;
+}
+
+.html-text {
+    padding-top: 25px;
+    font-size: 13px;
+    color: #a60000;
+    font-weight: 700;
+}
+
+
+.bio-links {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.link-icons {
+    width: 64px;
+}
+
+
+.col5 {
+    position: absolute;
+    left: 70px;
+    float: right;
+}
+
+.col6 {
+    position: absolute;
+    left: 620px;
+    float: right;
+    padding: 50px;
+}
+
+.line {
+    height: 3px;
+    width: 420px;
+    margin-left: -200px;
+    color: rgb(250, 187, 156);
+    background-color:  rgb(250, 187, 156);
+    border: 0px;
+}
+
+.AbMe-Text {
+    padding-top: 40px;
+}
+
+.p2 { padding-top: 15px;}
+.p3 { padding-top: 15px;}
+.p4 { padding-top: 15px;}
+
+
+/* ?? titolo non si sposta a sinistra ?? */
+/* DIV title Education */
+.Ed-title {
+    padding-top: 10px;
+}
+
+
+/* DIV 3 */
+.education {
+    display: flex;
+    width:  100vw;
+    padding: 50px;
+    padding-left: 50px;
+
+}
+
+.line2 {
+    height: 4px;
+    width: 420px;
+    color: rgb(250, 187, 156);
+    background-color:  rgb(250, 187, 156);
+    border: 0px;
+}
+
+.education-logo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.col7 {
+    width: 33.3%;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* DIV 4 */
+.interests {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 70px;
+}
+
+.col8 {
+    width: 25%;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* ?? dimensioni ?? */
+.card1 {
+    padding: 70px 50px;
+    background: url("../IMG/ABOUT\ ME\ card\ 1\ background.jpg");
+    background-repeat: no-repeat;
+    background-position: center; 
+    border-radius: 30px;
+    text-align: center;
+}
+
+.card2 {
+    padding: 70px 50px;
+    background: url("../IMG/ABOUT\ ME\ card\ 2\ background.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+    border-radius: 30px;
+    text-align: center;
+}
+
+.card3 {
+    padding: 70px 50px;
+    background: url("../IMG/ABOUT\ ME\ card\ 3\ background.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+    border-radius: 30px;
+    text-align: center;
+}
+
+.card4 {
+    padding: 70px 50px;
+    background: url("../IMG/ABOUT\ ME\ card\ 4\ background.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+    border-radius: 30px;
+    text-align: center;
+}
+
